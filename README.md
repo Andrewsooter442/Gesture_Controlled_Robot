@@ -25,7 +25,7 @@ This project uses computer vision and serial communication to track human hand g
 ### 1. hand_tracker.py
 This script uses MediaPipe and OpenCV to detect a user's hand in real time and save 3D landmark coordinates(x,y,z) of its 21 keypoints in a text file 'hand_data.txt'.
 
-![image](Photos\hand-1.jpg)
+![image](Photos/hand-1.jpg)
 
 ### 2. arduino_sender.py
 This script reads the hand coordinates from hand_data.txt and sends them over a serial port to the connected Arduino, which then moves the servo motors to replicate hand gestures.
