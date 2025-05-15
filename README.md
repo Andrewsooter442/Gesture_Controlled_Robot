@@ -1,5 +1,25 @@
 # Real-Time Gesture Controlled Robotic Hand
 
+## 🛠️ Installation
+### For **Windows**:
+```bash
+python -m venv Hand_sim
+cd Hand_sim
+.\Scripts\activate
+cd src
+pip install -r requirements.txt
+```
+
+### For **Mac/Linux**:
+```bash 
+python3 -m venv Hand_sim
+cd Hand_sim
+source bin/activate
+cd src
+pip install -r requirements.txt
+```
+
+
 ## 1. Introduction
 This project uses computer vision and serial communication to track human hand gestures via webcam and replicate them on a robotic hand in real time.
 
