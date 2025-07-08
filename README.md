@@ -60,4 +60,4 @@ This script reads the hand coordinates from hand_data.txt and sends them over a 
 ## :rocket:Applications
 - Human computer Interaction
 - Assistive robotics
-- AR/VR gesture interfaces
+- AR/VR gesture interfaces.
